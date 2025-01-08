@@ -1,3 +1,5 @@
+// Source: https://github.com/3110/m5atom-platformio-template
+
 #include <M5Atom.h>
 
 #include "Debug.h"
