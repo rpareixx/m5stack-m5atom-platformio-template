@@ -29,8 +29,8 @@ const char DEVICE_MANUFACTURER[] = "M5Stack";
 #endif
 
 const bool ENABLE_SERIAL = true;
-const bool ENABLE_I2C = true;
-const bool ENABLE_DISPLAY = true;
+const bool ENABLE_I2C = false;
+const bool ENABLE_DISPLAY = false;
 
 #ifdef ENABLE_BLE_KEYBOARD
 BLEKeyboardController keyboardController(DEVICE_NAME, DEVICE_MANUFACTURER);
